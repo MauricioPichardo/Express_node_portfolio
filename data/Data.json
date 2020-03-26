@@ -1,0 +1,57 @@
+{
+    "data": {
+        "title": "Build Projects",
+        "projects": [
+            {
+                "id": 1,
+                "description": "Provides a random quote about War",
+                "project_name": "Quote Generator",
+                "technologies": ["JavaScript","CSS","HTML"],
+                "live_link": "https://mauriciopichardo.github.io/Quote_Generator/",
+                "github_link": "https://github.com/MauricioPichardo/Quote_Generator",
+                "image_urls": ["/static/images/Quote1.png","/static/images/Quote2.png","/static/images/Quote3.png"],
+                "image_thumbs": "/static/images/quote_thumb.png"
+            },
+            {
+              "id": 2,
+              "description": "Form that submits user provide information",
+              "project_name": "Interactive Form",
+              "technologies": ["JavaScript","CSS","HTML"],
+              "live_link": "https://mauriciopichardo.github.io/interactive_form/",
+              "github_link": "https://github.com/MauricioPichardo/interactive_form",
+              "image_urls": ["/static/images/Interactive_Form1.png","/static/images/Interactive_Form2.png","/static/images/Interactive_Form3.png"],
+              "image_thumbs": "/static/images/interactiveform_thumb.png"
+            },
+            {
+              "id": 3,
+              "description": "Breaks existing information to navigable pages",
+              "project_name": "List Pagination",
+              "technologies": ["JavaScript","CSS","HTML","JQUERY"],
+              "live_link": "https://mauriciopichardo.github.io/list_pagination/",
+              "github_link": "https://github.com/MauricioPichardo/list_pagination",
+              "image_urls": ["/static/images/ListPag1.png","/static/images/ListPag2.png","/static/images/ListPag3.png"],
+              "image_thumbs": "/static/images/listpagination_thumb.png"
+            },
+            {
+              "id": 4,
+              "description": "Leverages public API to provide data to user",
+              "project_name": "Public API",
+              "technologies": ["JavaScript","CSS","HTML","JQUERY","Object Oriented","API","HTTP","AJAX"],
+              "live_link": "https://mauriciopichardo.github.io/Public_API/",
+              "github_link": "https://github.com/MauricioPichardo/Public_API",
+              "image_urls": ["/static/images/API1.png","/static/images/API2.png","/static/images/API3.png"],
+              "image_thumbs": "/static/images/public_api_thumb.png"
+            },
+            {
+              "id": 5,
+              "description": "Guessing game to pick random generator phrase",
+              "project_name": "OOP Game",
+              "technologies": ["JavaScript","CSS","HTML","JQUERY","Object Oriented"],
+              "live_link": "https://mauriciopichardo.github.io/oop_Game/",
+              "github_link": "https://github.com/MauricioPichardo/oop_Game",
+              "image_urls": ["/static/images/Oop_game1.png","/static/images/Oop_game2.png","/static/images/Oop_game3.png"],
+              "image_thumbs": "/static/images/game_thumb.png"
+            }
+        ]
+    }
+}
