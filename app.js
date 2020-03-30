@@ -15,12 +15,15 @@ app.use('/projects', projectRoutes);
 
 
 app.use((req, res, next) => {
+  console.log('Page does not exist');
   const err = new Error('Page Not Found');
+
   err.status = 404;
-  next(err);
+  return next(err);
 });
 
 app.use((err, req, res, next) => {
+  console.error('Error message:', err.message, ', Error status:', err.status)
   res.locals.error = err;
   res.render('error', err);
 });
